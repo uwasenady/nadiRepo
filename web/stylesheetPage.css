@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Feb-2023, 09:24:16
+    Author     : Elysee
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Feb-2023, 15:06:12
+    Author     : Elysee
+*/
+
+          label{
+                width: 120px;
+                display: inline-block;
+                margin: 4px;
+                color:blanchedalmond;
+            }
+            
+            form{
+            background-color: gray;
+            background-size:cover;
+              width: 500px;
+              display: inline-table;
+              margin: 18px;
+             
+              
+
+            }
+           
+            body{
+                background-image: url("image/Campuses.png");
+                font-family: Calibri, Helvetica, sans-serif;  
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+             #studentid{
+                width: 234px;
+              
+            }
+            #pin{
+                width: 234px;
+                
+              
+            }
+             #location{
+                width: 234px;
+                margin: 4px;
+                height: 22px;
+                
+              
+            }
+            #age{
+                width: 234px;
+                margin: 4px;
+                height: 20px;
+                
+              
+            }
+            
+             #mypdf{
+                width: 234px;
+                margin: 4px;
+                height: 20px;
+                
+              
+            }
+            nav{
+                border-radius: 10px;
+                border-radius: 30px;
+                background: aquamarine
+            }
+        
+            input[type=submit] {
+             width: 100%;  
+     
+            }
+            table{
+                
+                border:1px;
+                border-color: black;
+                background-color: gray;
+                  padding: 10px; 
+                  text-align: center;
+            }
+             
+            h1{
+                color: gray;
+            }

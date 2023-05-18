@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SingUp Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href="stylesheetPage.css"/>
+   
+
+<style type="text/css">
+
+  h1{text-align: right;}
+
+ input[type=text], input[type=password] {   
+        width: 30%;   
+        margin: 16px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    } 
+input[type=text], input[type=email] {   
+        width: 30%;   
+        margin: 16px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+        
+    } 
+    
+    
+       
+    
+</style>
+        
+    </head>
+    <body>
+          
+         <center><h2>USER REGISTRATION</h2></center>
+            <center>
+                <form action="signup.jsp?" method="POST"  style="top: 10px">
+                   
+
+       
+       <label for="username"> Username: </label>
+       <input type="text" size="30" name="username" id="username"  placeholder="Username" style="width: 300px;" required></br></br>
+       
+           
+       <label for="email"> Email: </label>
+       <input type="email" size="30" name="email" id="email" placeholder="E-mail" style="width: 300px;" required></br></br>
+       
+      <label for="pin"> Password: </label>
+      <input type="password" size="30" name="pin" id="pin"  placeholder="Password" style="width: 300px;" required></br>
+  
+       <label for="cpin">Confirm Password: </label>
+       <input type="password" size="30" name="cpin" id="cpin"  placeholder="Confirm Password"style="width: 300px;" required></br></br>
+       
+                   
+        <input type="submit" value="Sign Up" /> <input type="Reset" value="Clear" /></br></br>
+        <div style="color: white">
+            Have an account?  
+        </div>
+     
+      <nav>
+        <a href="./login.html"> Login</a>
+      </nav>
+    </form>
+        
+            </center>
+        
+    </body>
+</html>

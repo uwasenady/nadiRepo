@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Feb-2023, 19:05:22
+    Author     : Elysee
+*/
+
+
+
+    
+    
+      body{
+                background-image: url("image/Campuses.jpg");
+                font-family: Calibri, Helvetica, sans-serif;  
+                background-size: cover;
+                background-repeat: no-repeat;
+                top: 20px;
+                
+            }
+            
+                       h1 {
+   letter-spacing: 15px;
+   color: white;
+   margin-top: 66px;
+       }
+    
+    
+    
